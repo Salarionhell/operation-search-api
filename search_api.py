@@ -16,7 +16,7 @@ from pydantic import BaseModel
 from sentence_transformers import SentenceTransformer
 
 CATALOG_FILE = "operations-catalog-with-embeddings.json"
-MODEL_NAME = "intfloat/multilingual-e5-small"
+MODEL_NAME = "intfloat/multilingual-e5-large"
 
 app = FastAPI()
 
