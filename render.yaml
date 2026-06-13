@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: operation-search-api
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn search_api:app --host 0.0.0.0 --port $PORT
-    healthCheckPath: /health
